@@ -1,0 +1,58 @@
+FOTOS DEL MENÚ · PIZZERÍA EL MEXICANO
+
+Sube las fotos a esta carpeta. Usa una foto horizontal 4:3, de unos
+800 × 600 px y menos de 300 KB. Respeta los nombres, en minúsculas.
+La página prueba .jpg, .jpeg, .png y .webp en ese orden.
+
+Los siguientes nombres usan .jpg como ejemplo:
+
+PIZZAS ESPECIALES
+promo-3.jpg — Paquete 3 · Pizza Barra
+promo-4.jpg — Paquete 4 · Pizza Cuadrada
+promo-1.jpg — Paquete 1 · Pizza Jumbo
+
+ESPECIALIDADES AL 2×1
+2x1-chica.jpg — Chica 2x1
+2x1-mediana.jpg — Mediana 2x1
+2x1-grande.jpg — Grande 2x1
+2x1-familiar.jpg — Familiar 2x1
+marinera-chicas.jpg — Marinera · 2 chicas
+marinera-medianas.jpg — Marinera · 2 medianas
+marinera-grandes.jpg — Marinera · 2 grandes
+boneless-chicas.jpg — Boneless · 2 chicas
+boneless-medianas.jpg — Boneless · 2 medianas
+boneless-grandes.jpg — Boneless · 2 grandes
+
+PROMOCIONES
+promo-2.jpg — Paquete 2
+promo-5.jpg — Paquete 5
+promo-5-azteca.jpg — Paquete 5 con Azteca
+promo-6.jpg — Paquete 6 · Pizza Corazón
+orilla-mediana.jpg — Mediana con orilla de queso
+orilla-grande.jpg — Grande con orilla de queso
+orilla-familiar.jpg — Familiar con orilla de queso
+
+COMBOS Y HAMBURGUESAS
+combo-snack.jpg — Combo Snack
+combo-1.jpg — Paquete de alitas
+combo-2.jpg — Orden de alitas
+combo-3.jpg — Orden de costillas
+combo-4.jpg — Hamburguesa con papas
+hamburguesa-sencilla.jpg — Hamburguesa sencilla
+hamburguesa-hawaiana.jpg — Hamburguesa hawaiana
+hamburguesa-doble.jpg — Hamburguesa doble
+
+ESPAGUETIS Y BEBIDAS
+espagueti-gratinado.jpg — Espagueti gratinado
+espagueti-bolonesa.jpg — Espagueti boloñesa
+espagueti-marinero.jpg — Espagueti marinero
+
+HOT DOGS ESPECIALES
+hot-guapito.jpg — Hot Guapito
+hot-scrappy.jpg — Hot Scrappy
+hot-chori.jpg — Hot Chori
+hot-tradicional.jpg — Tradicional
+hot-pizza.jpg — Hot Pizza
+hot-predador.jpg — Hot Predador
+doggis-doggis.jpg — Doggis Doggis
+hot-rouge.jpg — Hot Rouge
