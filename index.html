@@ -1,0 +1,501 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#087338">
+<title>Pizzería El Mexicano | Pedidos en Ixtapaluca</title>
+<link rel="icon" href="images/logo.png" type="image/png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&display=swap">
+<style>
+:root{--verde:#087338;--rojo:#dc292b;--rojo-oscuro:#9f1018;--dorado:#ffc61a;--blanco:#fff;--whatsapp:#25d366;--gps:#1677c8;--panel:#0d3d20;--oscuro:#072a14;--crema:#fff0d2;--titulos:Oswald,'Arial Narrow',sans-serif;--tricolor:linear-gradient(90deg,var(--verde) 33.33%,white 33.33% 66.66%,var(--rojo) 66.66%)}
+*{box-sizing:border-box}body{margin:0;padding-bottom:86px;color:var(--blanco);background:linear-gradient(#0006,transparent 30%,#0005),#7a3f1a url('images/madera.jpg') repeat;background-size:auto,360px auto;font:16px/1.45 system-ui,sans-serif}button,input,select,textarea{font:inherit}button,a,input,select,textarea,summary{-webkit-tap-highlight-color:transparent}button,a.btn,summary{cursor:pointer}button,a.btn{border:0;border-radius:6px;font-weight:750}a{color:inherit}button:focus-visible,a:focus-visible,summary:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid var(--dorado);outline-offset:3px}h1,h2,h3,.brand-title,.amount,.price{font-family:var(--titulos);line-height:1.12;text-transform:uppercase;margin:0}p{margin:0}header{text-align:center;background:radial-gradient(ellipse,#18944e,#083d20 70%,#052b17);border-bottom:7px solid transparent;border-image:var(--tricolor) 1;padding:18px 12px 15px}header img{display:block;margin:auto;width:auto;height:clamp(166px,24vw,270px);max-width:100%;object-fit:contain;filter:drop-shadow(0 8px 6px #000a)}.branch{margin-top:7px;font:600 14px var(--titulos);letter-spacing:.21em;text-transform:uppercase;color:var(--crema)}nav{position:sticky;top:0;z-index:4;background:#071c12;border-bottom:1px solid #a4852f;box-shadow:0 3px 12px #0006}nav div{display:flex;gap:8px;max-width:1130px;margin:auto;padding:10px 12px;overflow-x:auto;scrollbar-width:none}nav div::-webkit-scrollbar{display:none}nav a{flex:none;text-decoration:none;border:1px solid #477450;border-radius:99px;background:#123b24;padding:7px 13px;font:600 15px var(--titulos);letter-spacing:.025em}nav a:hover{border-color:var(--dorado)}main{max-width:1130px;margin:auto;padding:22px 14px}.business{max-width:680px;margin:auto;padding:18px clamp(12px,4vw,28px);text-align:center;background:#080808;border:3px solid var(--dorado);border-radius:12px;box-shadow:0 8px 22px #0007}.state{display:inline-block;background:#176b38;color:white;font-size:.82rem;font-weight:800;border-radius:24px;padding:4px 12px;white-space:nowrap}.state.closed{background:#a51e23}.brand-title{font-weight:700;font-size:clamp(26px,4.8vw,43px);text-shadow:0 2px #f03232,0 4px #831319;margin:10px auto}.hours{color:var(--dorado);font-weight:800;margin:6px 0}.address{font-size:.88rem}.phones,.payments{display:grid;grid-auto-columns:minmax(0,1fr);grid-auto-flow:column;gap:7px;margin:13px 0 8px}.btn{display:block;text-align:center;text-decoration:none;padding:10px 8px;background:linear-gradient(#de302e,var(--rojo-oscuro));color:white}.phones .btn{background:#173624;border:1px solid #487553;font-size:clamp(12px,3.5vw,16px);white-space:nowrap}.wa{background:var(--whatsapp);color:#061f12}.blue{background:var(--gps);color:white}.gold{background:var(--dorado);color:#241500}.quiet{background:#234b32;color:white;border:1px solid #688875}.group{margin-top:40px;scroll-margin-top:76px}.category{text-align:center;font-size:clamp(27px,5vw,46px);font-weight:700;color:var(--dorado);-webkit-text-stroke:2.5px #172318;paint-order:stroke fill;letter-spacing:.045em;text-shadow:2px 2px white,-2px 2px white,2px -2px white,-2px -2px white,0 3px white,0 -3px white,3px 0 white,-3px 0 white,0 7px 5px #000}.category::after{display:block;content:'';width:120px;height:6px;background:var(--tricolor);margin:12px auto 8px;border-radius:3px;box-shadow:0 2px 5px #0008}.description{text-align:center;color:var(--crema);text-shadow:0 2px 3px black;margin-bottom:16px}.notice{background:#000b;border:1px solid #e8b639;border-radius:8px;padding:10px 12px;margin:0 0 12px;color:white;font-size:.9rem}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.grid.two{grid-template-columns:repeat(4,minmax(0,1fr))}.card{position:relative;display:flex;flex-direction:column;min-width:0;overflow:hidden;border-radius:8px;border:1px solid #38834c;background:linear-gradient(var(--panel),var(--oscuro));box-shadow:0 5px 12px #0007}.card::before{content:'';height:4px;background:linear-gradient(90deg,var(--rojo),var(--dorado));flex:none}.card.special::before{background:var(--dorado)}.card.promo::before{background:var(--tricolor)}.card img{order:0;width:100%;aspect-ratio:4/3;object-fit:cover}.card-text{padding:13px 12px;display:flex;flex:1;flex-direction:column;gap:9px}.card h3{padding-right:78px;min-height:26px;font-size:21px}.card p{font-size:.88rem;color:var(--crema)}.card .btn{width:100%;margin-top:auto}.price{position:absolute;right:9px;top:12px;border:1px solid white;background:var(--rojo-oscuro);padding:5px 9px;border-radius:30px;color:white;font-size:1.05rem;z-index:1}.special .price{background:var(--dorado);color:#2a1900}.tags{display:flex;gap:5px;flex-wrap:wrap}.tags span{font-size:.72rem;border:1px solid #629061;border-radius:24px;padding:2px 8px;color:var(--crema)}#cart-bar{position:fixed;z-index:5;bottom:0;left:0;width:100%;background:linear-gradient(#ca2729,#991018);border-top:3px solid var(--dorado);border-radius:0;color:white;min-height:58px;padding:9px 12px max(10px,env(safe-area-inset-bottom));box-shadow:0 -4px 14px #0007}#cart-bar strong{color:var(--dorado)}
+dialog{width:min(95vw,660px);max-height:min(93dvh,900px);border:1px solid #80a678;border-radius:12px;padding:0;color:white;background:linear-gradient(var(--panel),var(--oscuro));box-shadow:0 15px 50px #000b;overscroll-behavior:contain}dialog::backdrop{background:#000b}body:has(dialog[open]){overflow:hidden}.dialog-head{position:sticky;top:0;z-index:2;display:flex;align-items:center;justify-content:space-between;gap:10px;padding:13px 14px;background:#0d3d20;border-bottom:1px solid #4f784b}.dialog-head h2{font-size:1.4rem;color:var(--dorado)}.close,.step,.pick{min-width:34px;min-height:34px}.dialog-body{padding:12px 14px}.flavors{max-height:185px;overflow:auto;overscroll-behavior:contain;padding-right:4px;border:1px solid #517b55;border-radius:7px;background:#082916}.flavor{display:flex;align-items:center;justify-content:space-between;gap:9px;padding:7px 8px;border-bottom:1px solid #36533c}.flavor:last-child{border:0}.flavor small{display:block;color:var(--crema);font-size:.75rem}.flavor strong{font:600 .9rem var(--titulos);text-transform:uppercase}.pizza-row{display:flex;justify-content:center;gap:8px;margin:10px 0}.pie{flex:0 1 124px;min-width:0;text-align:center;font-size:.77rem}.pie small{display:block;margin:4px auto}.shape{display:grid;grid-auto-rows:minmax(0,1fr);width:100%;aspect-ratio:1;overflow:hidden;border:4px solid #be783a;border-radius:50%;background:#a53d24}.shape.flat{max-width:390px;margin:0 auto;aspect-ratio:3/1;border-radius:7px;grid-auto-flow:column;grid-auto-columns:minmax(0,1fr)}.shape.square{max-width:195px;margin:0 auto;aspect-ratio:1;border-radius:7px;grid-template:1fr 1fr / 1fr 1fr}.shape button{color:white;background:#833a25;border:1px solid #c67748;border-radius:0;padding:2px;font-size:clamp(10px,2.8vw,13px);line-height:1.05;overflow-wrap:anywhere}.shape button.done{color:#2c1700;background:#eab13c}.shape button.active{box-shadow:inset 0 0 0 3px var(--dorado)}.choice-label{text-align:center;font-size:.82rem;color:var(--crema);min-height:20px;margin:8px 0}.option{display:block;font-size:.89rem;margin:9px 0}.option input{accent-color:var(--dorado)}details{border:1px solid #58845b;border-radius:7px;padding:7px;margin:9px 0}summary{font-weight:700;color:var(--crema);list-style:none}summary::-webkit-details-marker{display:none}summary span{display:inline-block}details[open] summary span{transform:rotate(180deg)}.extra-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px;margin-top:8px}.extra-grid div{background:#062514;padding:7px;border-radius:5px;font-size:.8rem}.extra-grid div:nth-child(3){grid-column:1/-1}.extra-grid .option{font-size:.8rem;margin:5px 0}select,input:not([type=checkbox]),textarea{width:100%;color:white;background:#071f14;border:1px solid #6b956c;border-radius:6px;padding:8px;font-size:16px}#checkout label,.drink{font-weight:650;font-size:.88rem;display:block}#checkout label input,#checkout label textarea,.drink select{margin-top:4px}.dialog-actions{display:grid;gap:8px;margin-top:10px}.running,.amount{color:var(--dorado);font-weight:800}.running{font-size:.92rem;margin-top:8px}.amount{font-size:1.8rem;margin-top:10px}.cart-line{display:grid;grid-template-columns:1fr auto;gap:7px;padding:9px 0;border-bottom:1px solid #406b47}.line-tools{display:flex;align-items:center;gap:4px}.step{color:white;background:#245334}.line-info{font-size:.83rem;color:var(--crema)}.fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:10px 0}.wide{grid-column:1/-1}.gps-wrap{margin-top:11px}.gps-wrap button{width:100%}.hint{font-size:.85rem;color:var(--crema);margin:5px 0}.payments button{border:1px solid #648d65;min-height:39px;background:#153925;color:white;padding:5px 2px;font-size:clamp(11px,3.4vw,15px);white-space:nowrap}.payments button[aria-pressed=true]{background:var(--dorado);color:#231600;border-color:var(--dorado)}.bank{background:#070707}.bank p{margin:5px 0}.toast{position:fixed;z-index:10;bottom:72px;left:50%;transform:translateX(-50%);width:max-content;max-width:calc(100% - 24px);padding:8px 13px;border:1px solid #84c884;border-radius:8px;background:#165331;color:white;font-weight:700;box-shadow:0 4px 12px #0009;font-size:.88rem}.toast.error{background:#9d171e;border-color:#ff8c80}[hidden]{display:none!important}footer{text-align:center;color:var(--crema);font-size:.85rem;padding:16px;text-shadow:0 2px 3px black}
+@media(max-width:859px){.grid,.grid.two{grid-template-columns:minmax(0,1fr)}.card-text{min-height:124px}.group{margin-top:32px}}@media(max-width:420px){.dialog-body{padding:10px}.line-tools .step{min-width:28px}.cart-line{gap:4px}.flavors{max-height:145px}}
+</style>
+</head>
+<body>
+<header><img src="images/logo.png" alt="Pizzería El Mexicano" width="700" height="514"><p class="branch">Sucursal Ixtapaluca</p></header>
+<nav aria-label="Categorías del menú"><div id="nav"></div></nav>
+<main>
+<section class="business" aria-label="Información de la sucursal">
+<p id="state" class="state" role="status"></p>
+<h1 class="brand-title">Servicio a domicilio gratis</h1>
+<p class="hours" id="hours"></p>
+<p class="address">Boulevard San Buenaventura s/n, esq. con Capulín, col. La Venta, Ixtapaluca.</p>
+<p class="address">Pedido mínimo para domicilio: $163.</p>
+<p class="address">Ven y disfruta con tu familia nuestras pizzas recién horneadas.</p>
+<div class="phones"><a class="btn" href="tel:+525559725860">55 5972-5860</a><a class="btn" href="tel:+525559727647">55 5972-7647</a></div>
+<a class="btn wa" href="https://wa.me/525519727710" target="_blank" rel="noopener">WhatsApp · 55 1972-7710</a>
+</section>
+<div id="menu"></div>
+</main>
+<footer>Pizzería El Mexicano · Sucursal Ixtapaluca</footer>
+<button id="cart-bar" type="button"></button>
+<div id="toast" class="toast" role="status" hidden></div>
+<dialog id="product-dialog" aria-labelledby="product-title">
+<div class="dialog-head"><h2 id="product-title"></h2><button class="close quiet" type="button" aria-label="Cerrar selector de sabores" data-close>×</button></div>
+<div id="product-body" class="dialog-body"></div>
+<div class="toast" role="status" hidden></div>
+</dialog>
+<dialog id="cart-dialog" aria-labelledby="cart-title">
+<div class="dialog-head"><h2 id="cart-title">Mi carrito</h2><button class="close quiet" type="button" aria-label="Cerrar carrito" data-close>×</button></div>
+<div class="dialog-body">
+<div id="cart-items"></div>
+<form id="checkout" novalidate>
+<div class="gps-wrap"><button id="gps" type="button" class="btn blue">Compartir ubicación GPS</button><p id="gps-status" class="hint" role="status"></p></div>
+<div class="fields">
+<label class="wide">Nombre completo *<input name="name" required autocomplete="name"></label>
+<label class="wide">Teléfono a 10 dígitos *<input name="phone" required inputmode="numeric" autocomplete="tel-national" maxlength="14"></label>
+<label class="wide">Calle y número *<input name="address" required autocomplete="street-address"></label>
+<label>Entre qué calles *<input name="cross" required></label><label>Colonia *<input name="area" required></label>
+<label>Color de zaguán<input name="gate"></label><label>Color de fachada<input name="front"></label>
+<label class="wide">Notas para la entrega<textarea name="notes" rows="2"></textarea></label>
+</div>
+<div class="payments" role="group" aria-label="Forma de pago">
+<button type="button" data-pay="Efectivo">Efectivo</button>
+<button type="button" data-pay="Transferencia">Transferencia</button>
+<button type="button" data-pay="Tarjeta">Tarjeta +4%</button>
+</div>
+<div id="cash-panel"><label>¿Con cuánto pagas? (el repartidor no lleva más de $50 de cambio)<input name="cash" type="number" min="0" step=".01" inputmode="decimal"></label><p class="hint" id="change" role="status"></p></div>
+<div id="bank-panel" class="notice bank" hidden></div>
+<p id="card-panel" class="notice" hidden>Se agrega 4% al total.</p>
+<p class="amount" id="order-total"></p>
+<p class="hint">Al enviar el pedido se abrirá WhatsApp. Si pagas por transferencia o tarjeta, envía también tu comprobante.</p>
+<div class="dialog-actions"><button type="submit" class="btn wa">Enviar pedido por WhatsApp</button><button type="button" class="btn quiet" data-close>Seguir comprando</button></div>
+</form>
+</div>
+<div class="toast" role="status" hidden></div>
+</dialog>
+<script>
+'use strict';
+// Datos del negocio. El volante de Ixtapaluca indica cierre a las 11 pm.
+const BUSINESS = 'Pizzería El Mexicano';
+const WHATSAPP = '525519727710';
+const OPEN_MIN = 12 * 60; // Hora de apertura en minutos desde las 00:00.
+const CLOSE_MIN = 23 * 60; // Hora de cierre en minutos desde las 00:00.
+const ZONE = 'America/Mexico_City';
+const CARD_RATE = 0.04;
+const MAX_CHANGE = 50;
+const DELIVERY_MIN = 163;
+const HALF_COST = 10;
+const COKE_COST = 15;
+const CRUST = {chica:20, mediana:25, grande:30, familiar:35};
+// Completar solo con los datos de transferencia confirmados por el negocio.
+const BANK = {clabe:'', bank:'', owner:''};
+const bankReady = /^\d{18}$/.test(BANK.clabe) && BANK.bank && BANK.owner;
+const cokeDetail = 'Coca Cola 1.75 L (+$15)';
+const money = value => '$' + new Intl.NumberFormat('es-MX',{maximumFractionDigits:2}).format(value);
+const cents = value => Math.round(value * 100);
+const $ = id => document.getElementById(id);
+const safe = value => String(value).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
+
+// Las especialidades conservan sus nombres y los ingredientes legibles en el volante.
+const flavors = [
+['Suadero','Suadero, cilantro, cebolla y guacamole'],
+['Picarona','Pollito, cebolla morada, aritos de habanero c/s aguacate'],
+['Mexicana','Pierna española, jalapeños, pollo y aguacate'],
+['Al Pastor','Carne al pastor, cebolla, piña, jalapeño o chipotle'],
+['Azteca','Chorizo, frijol, jalapeños y aguacate'],
+['Combinada','Jamón, salami, chorizo, champiñones, pimiento verde y cebolla'],
+['Combinada Especial','Pepperoni, salchicha italiana, salami, jamón, chorizo, pimiento, cebolla y champiñones'],
+['Hawaiana Tradicional','Jamón, piña, tocino o cereza'],
+['Hawaiana Internacional','Crema, durazno, jamón y cereza'],
+['Suculenta de Atún','Champiñones, atún, cebolla, c/s rajas de habanero'],
+['Cubana','Pierna, jalapeños, atún, jitomate, tocino y aguacate, c/s mayonesa'],
+['Clásica','Pepperoni, champiñones, pimiento verde y aceitunas'],
+['Clásica Especial','Pepperoni, salchicha italiana, cebolla, pimiento verde y aceituna negra'],
+['Carnes Frías','Pierna, lomo, salchicha, tocino y pepperoni'],
+['Romana','Salami, jamón, pepperoni, tocino, cebolla, pimiento verde y jalapeño'],
+['Vegetariana','Champiñones, pimiento verde, cebolla y elote'],
+['Americana','Pierna, lomo, jamón, salchicha italiana'],
+['Costilla BBQ','Costilla ahumada, cebolla morada y salsa BBQ'],
+['Europea','Chistorra, con o sin champiñones'],
+['Portuguesa','Carne molida, frijoles, con o sin champiñones'],
+['Italiana','Pierna, atún, jitomate, chipotle y con base de mayonesa'],
+['Pepperoni','Pepperoni y queso'],
+['Pepperoni Especial','Pepperoni, jalapeño y piña'],
+['Marinera','Cebolla, camarón, mejillón, pulpo, calamar y atún'],
+['Boneless','Camarón']
+];
+const basic = (id,name,price,description='') => ({id,name,price,description});
+const sections = [
+{id:'especiales',title:'Pizzas especiales',description:'Pizzas con orilla rellena de queso. Elige tus especialidades.',style:'special',items:[
+{id:'promo-3',name:'Paquete 3 · Pizza Barra',price:237,description:'Pizza barra de 18 × 52 cm, 2 especialidades a elegir, orilla rellena de queso y refresco de 2 L.',tags:['2 especialidades','Orilla de queso','Refresco 2 L'],shape:'flat',zones:2,drink:true,sea:false},
+{id:'promo-4',name:'Paquete 4 · Pizza Cuadrada',price:388,description:'Pizza cuadrada de 36 cm, de 1 a 4 especialidades a elegir y orilla rellena de queso. No aplica 2×1 ni mariscos.',tags:['Hasta 4 especialidades','Orilla de queso'],shape:'square',zones:4,variableZones:true,sea:false},
+{id:'promo-1',name:'Paquete 1 · Pizza Jumbo',price:298,description:'Pizza jumbo con orilla rellena de queso cubierta de Doritos y refresco de 2 L.',tags:['Orilla de queso','Refresco 2 L'],count:1,drink:true,sea:false}
+]},
+{id:'especialidades',title:'Especialidades al 2×1',description:'Especialidades recién horneadas. Elige el tamaño y los sabores.',style:'two',notice:'Si lo prefieres, llévate 1 sola pizza con 40% de descuento. El repartidor no lleva más de $50 de cambio.',items:[
+...['Chica','Mediana','Grande','Familiar'].map((size,i)=>({id:'2x1-'+size.toLowerCase(),name:size+' 2x1',size:size.toLowerCase(),price:[163,246,326,432][i],count:2,two:true,description:'Dos pizzas de especialidad, tamaño '+size.toLowerCase()+'.',tags:['2 pizzas'],sea:false})),
+...['Chicas','Medianas','Grandes'].map((size,i)=>({id:'marinera-'+size.toLowerCase(),name:'Marinera · 2 '+size.toLowerCase(),price:[237,313,378][i],count:2,fixed:['Marinera','Marinera'],description:flavors[23][1]})),
+...['Chicas','Medianas','Grandes'].map((size,i)=>({id:'boneless-'+size.toLowerCase(),name:'Boneless · 2 '+size.toLowerCase(),price:[178,248,334][i],count:2,fixed:['Boneless','Boneless'],description:'Camarón'}))
+]},
+{id:'promociones',title:'Promociones',description:'Paquetes de pizza con refresco para compartir.',style:'promo',items:[
+{id:'promo-2',name:'Paquete 2',price:340,description:'1 pizza familiar de cualquier especialidad, 2 hamburguesas, 100 g de papas, orilla rellena de queso y refresco de 2 L.',tags:['Familiar','Orilla de queso','Refresco 2 L'],count:1,drink:true,sea:false},
+{id:'promo-5',name:'Paquete 5',price:250,description:'2 pizzas grandes, hawaiana y pepperoni, con refresco de 2 L.',tags:['2 grandes','Refresco 2 L'],count:2,fixed:['Hawaiana Tradicional','Pepperoni'],drink:true},
+{id:'promo-5-azteca',name:'Paquete 5 con Azteca',price:350,description:'Hawaiana y pepperoni, más Azteca y refresco de 2 L.',tags:['Refresco 2 L'],count:3,fixed:['Hawaiana Tradicional','Pepperoni','Azteca'],drink:true},
+{id:'promo-6',name:'Paquete 6 · Pizza Corazón',price:265,description:'1 pizza corazón de cualquier especialidad con orilla rellena de queso y refresco de 2 L.',tags:['Orilla de queso','Refresco 2 L'],count:1,drink:true,sea:false},
+...['Mediana','Grande','Familiar'].map((size,i)=>({id:'orilla-'+size.toLowerCase(),name:size+' con orilla de queso',price:[162,205,252][i],description:[8,8,12][i]+' rebanadas. No aplica 2×1.',count:1,sea:false}))
+]},
+{id:'combos',title:'Combos y hamburguesas',description:'Hamburguesas, papas y paquetes para compartir.',style:'promo',items:[
+basic('combo-snack','Combo Snack',441,'5 alitas, papas a la francesa, papas gajo, 2 hamburguesas, 2 mini pizzas, Coca de 2 L, costillas BBQ, aros de cebolla, dedos de queso y nuggets.'),
+basic('combo-1','Paquete de alitas',97,'5 piezas, papas y refresco individual.'),basic('combo-2','Orden de alitas',88),basic('combo-3','Orden de costillas',102,'Costillas bañadas con salsa BBQ.'),basic('combo-4','Hamburguesa con papas',112,'Incluye refresco individual.'),
+basic('hamburguesa-sencilla','Hamburguesa sencilla',60),basic('hamburguesa-hawaiana','Hamburguesa hawaiana',65),basic('hamburguesa-doble','Hamburguesa doble',82)
+]},
+{id:'espaguetis',title:'Espaguetis y bebidas',description:'Acompaña tu pedido con un espagueti.',items:[
+basic('espagueti-gratinado','Espagueti gratinado',80,'Jamón, crema, tocino y queso.'),basic('espagueti-bolonesa','Espagueti boloñesa',120,'Crema, salsa boloñesa y carne molida.'),basic('espagueti-marinero','Espagueti marinero',130,'Atún, mejillones, calamares, camarones y queso.')
+]},
+{id:'hot-dogs',title:'Hot dogs especiales',description:'Hot dogs preparados al momento.',items:[
+basic('hot-guapito','Hot Guapito',85,'Salchicha, champiñones, queso manchego, cebolla caramelizada, tocino y mayonesa.'),
+basic('hot-scrappy','Hot Scrappy',65,'Salchicha, tocino, piña, jitomate, cebolla, jalapeños y mayonesa.'),
+basic('hot-chori','Hot Chori',75,'Salchicha, tocino, queso Oaxaca, chorizo, chiles toreados, mayonesa y guacamole.'),
+basic('hot-tradicional','Tradicional',65,'Salchicha, queso Oaxaca, tocino, jitomate, cebolla y jalapeños.'),
+basic('hot-pizza','Hot Pizza',75,'Salchicha, pepperoni, queso manchego, tocino y mayonesa.'),
+basic('hot-predador','Hot Predador',75,'Salchicha, carne molida, queso manchego, guacamole, champiñones, mayonesa, chiles toreados y rajas.'),
+basic('doggis-doggis','Doggis Doggis',89,'Carne molida, tocino, queso Oaxaca, piña y mayonesa.'),
+basic('hot-rouge','Hot Rouge',85,'Salchicha, tocino, guacamole, arrachera, chiles toreados, mayonesa y cebolla.')
+]}];
+const products = new Map(sections.flatMap(section=>section.items).map(item=>[item.id,item]));
+
+// Horario y menú.
+const clock = new Intl.DateTimeFormat('es-MX',{timeZone:ZONE,hour:'2-digit',minute:'2-digit',hourCycle:'h23'});
+const hourLabel = (minutes, compact=false) => {
+  const hour = Math.floor(minutes / 60) % 24;
+  const minute = minutes % 60;
+  const suffix = hour < 12 ? 'am' : 'pm';
+  return (hour % 12 || 12) + (compact && !minute ? '' : ':' + String(minute).padStart(2,'0')) + ' ' + suffix;
+};
+const hoursText = hourLabel(OPEN_MIN) + ' a ' + hourLabel(CLOSE_MIN);
+function refreshHours(){
+  const parts = clock.formatToParts(new Date());
+  const now = Number(parts.find(part=>part.type==='hour').value)*60 + Number(parts.find(part=>part.type==='minute').value);
+  const open = OPEN_MIN < CLOSE_MIN ? now >= OPEN_MIN && now < CLOSE_MIN : now >= OPEN_MIN || now < CLOSE_MIN;
+  $('state').textContent = open ? 'Abierto ahora' : 'Cerrado · abrimos ' + hourLabel(OPEN_MIN,true);
+  $('state').classList.toggle('closed',!open);
+  return open;
+}
+$('hours').textContent = 'Abierto de ' + hoursText;
+refreshHours();
+setInterval(refreshHours,60000);
+$('nav').innerHTML = sections.map(section=>'<a href="#'+section.id+'">'+section.title+'</a>').join('');
+$('menu').innerHTML = sections.map(section=>`
+<section class="group" id="${section.id}">
+<h2 class="category">${section.title}</h2>
+<p class="description">${section.description}</p>
+${section.notice ? '<p class="notice">'+section.notice+'</p>' : ''}
+<div class="grid ${section.style || ''}">${section.items.map(item=>`
+<article class="card ${section.style || ''}" data-img="${item.id}">
+<span class="price">${money(item.price)}</span>
+<div class="card-text">
+<h3>${safe(item.name)}</h3>
+${item.description ? '<p>'+safe(item.description)+'</p>' : ''}
+${item.tags ? '<div class="tags">'+item.tags.map(tag=>'<span>'+safe(tag)+'</span>').join('')+'</div>' : ''}
+<button class="btn ${section.style==='special'?'gold':''}" type="button" data-product="${item.id}">${(item.count || item.zones) && !item.fixed ? 'Elegir sabores' : 'Agregar'}</button>
+</div></article>`).join('')}</div></section>`).join('');
+// Buscar fotos únicamente cuando la tarjeta se acerca a la pantalla.
+const images = new IntersectionObserver(entries=>entries.forEach(({target,isIntersecting})=>{
+  if(!isIntersecting) return;
+  images.unobserve(target);
+  const photo = new Image();
+  photo.alt = target.querySelector('h3').textContent;
+  
+  const extensions = ['jpg','jpeg','png','webp'];
+  let attempt = 0;
+  const probe = () => {
+    if (attempt === extensions.length) return;
+    photo.src = 'images/'+target.dataset.img+'.'+extensions[attempt++];
+  };
+  photo.onerror = probe;
+  photo.onload = () => {
+    photo.loading = 'lazy';
+    target.insertBefore(photo,target.querySelector('.card-text'));
+  };
+  // La primera carga se dispara al acercarse al área visible.
+  probe();
+}),{rootMargin:'240px'});
+document.querySelectorAll('[data-img]').forEach(card=>images.observe(card));
+
+// Selector de sabores y complementos.
+const productDialog = $('product-dialog');
+const productBody = $('product-body');
+const cartDialog = $('cart-dialog');
+let choice;
+let toastTimer;
+function notify(message,error=false){
+  const toast = document.querySelector('dialog[open] .toast') || $('toast');
+  document.querySelectorAll('.toast').forEach(element=>element.hidden=true);
+  clearTimeout(toastTimer);
+  toast.textContent=message;
+  toast.classList.toggle('error',error);
+  toast.hidden=false;
+  toastTimer=setTimeout(()=>toast.hidden=true,3300);
+}
+function startProduct(item){
+  if(!item.count && !item.zones && !item.drink){
+    addItem(item.name,item.price,[],item.id);
+    return;
+  }
+  choice = {
+    item, single:false, coke:false, active:[0,0], extrasOpen:false,
+    zones:Array(item.zones || 0).fill(''), zoneCount:item.zones,
+    pizzas:Array.from({length:item.count || 0},(_,i)=>({first:item.fixed?.[i] || '',second:'',half:false,crust:false}))
+  };
+  $('product-title').textContent=item.name;
+  productBody.innerHTML='';
+  renderChoice();
+  productDialog.showModal();
+  productDialog.scrollTop=0;
+}
+const selectedPizzas = () => choice.pizzas.slice(0,choice.single ? 1 : choice.pizzas.length);
+const flavorAllowed = flavor => choice.item.sea !== false || !/atún|camarón|mejillón|pulpo|calamar/i.test(flavor[1]);
+function zoneButton(value,i,j){
+  const active=choice.active[0]===i && choice.active[1]===j;
+  return '<button type="button" data-zone="'+i+','+j+'" class="'+(value?'done ':'')+(active?'active':'')+'" '+(choice.item.fixed?'disabled ':'')+'aria-label="'+safe((choice.item.zones?'Zona ':'Pizza ')+(i+1)+(j?', segunda mitad':'')+(value?' · '+value:''))+'">'+safe(value || (j?'½ sabor 2':'Elegir'))+'</button>';
+}
+function optionLabel(attribute,index,on,label){
+  return '<label class="option"><input type="checkbox" '+attribute+'="'+index+'" '+(on?'checked':'')+'> '+safe(label)+'</label>';
+}
+function choiceTotals(){
+  let price=choice.single?choice.item.price*.6:choice.item.price;
+  const breakdown=[];
+  if(choice.single) breakdown.push('1 pizza con 40% de descuento');
+  selectedPizzas().forEach((pizza,i)=>{
+    if(pizza.half){price+=HALF_COST;breakdown.push('P'+(i+1)+': Mitad +'+money(HALF_COST));}
+    if(pizza.crust){const extra=CRUST[choice.item.size];price+=extra;breakdown.push('P'+(i+1)+': Orilla +'+money(extra));}
+  });
+  if(choice.coke){price+=COKE_COST;breakdown.push('Coca Cola +'+money(COKE_COST));}
+  return {price:cents(price)/100,breakdown};
+}
+function renderChoice(){
+  const scroll=productBody.querySelector('.flavors')?.scrollTop || 0;
+  const {item,active,extrasOpen}=choice;
+  const rows=selectedPizzas();
+  const countExtras=rows.reduce((sum,p)=>sum+Number(p.half)+Number(p.crust),0);
+  const current=rows[active[0]];
+  const label=item.zones?'Zona '+(active[0]+1):'Pizza '+(active[0]+1)+(current?.half?' - 1/2 sabor '+(active[1]+1):'');
+  const totals=choiceTotals();
+  productBody.innerHTML=`
+    ${item.two ? optionLabel('data-single',0,choice.single,'Quiero solo 1 pizza con 40% de descuento') : ''}
+    ${item.fixed ? '' : '<div class="flavors" tabindex="0" aria-label="Especialidades">'+flavors.filter(flavorAllowed).map(([name,ingredients])=>'<div class="flavor"><div><strong>'+safe(name)+'</strong><small>'+safe(ingredients)+'</small></div><button type="button" class="pick gold" data-flavor="'+safe(name)+'" aria-label="Elegir '+safe(name)+'">+</button></div>').join('')+'</div>'}
+    ${item.variableZones ? '<label class="drink">Número de especialidades<select id="zone-count">'+[1,2,3,4].map(n=>'<option '+(n===choice.zoneCount?'selected':'')+' value="'+n+'">'+n+'</option>').join('')+'</select></label>' : ''}
+    ${item.zones ? '<div class="pizza-row"><div class="shape '+item.shape+'">'+choice.zones.map((_,i)=>{const zone=i%choice.zoneCount;return zoneButton(choice.zones[zone],zone,0);}).join('')+'</div></div>' :
+      rows.length ? '<div class="pizza-row">'+rows.map((p,i)=>'<div class="pie"><div class="shape">'+zoneButton(p.first,i,0)+(p.half?zoneButton(p.second,i,1):'')+'</div><small>Pizza '+(i+1)+'</small></div>').join('')+'</div>' : ''}
+    ${item.fixed ? '' : '<p class="choice-label">Eligiendo: '+label+'. Toca un sabor de la lista.</p>'}
+    ${item.two ? '<details '+(extrasOpen?'open':'')+'><summary>Mitad y mitad / Orilla rellena '+(countExtras?'('+countExtras+') ':'')+'<span aria-hidden="true">⌄</span></summary><div class="extra-grid">'+rows.map((p,i)=>'<div><strong>PIZZA '+(i+1)+'</strong>'+optionLabel('data-half',i,p.half,'Mitad y mitad (+'+money(HALF_COST)+')')+optionLabel('data-crust',i,p.crust,'Orilla rellena (+'+money(CRUST[item.size])+')')+'</div>').join('')+'</div></details>' : ''}
+    ${item.drink ? '<label class="drink">Refresco 2 L<select id="soda"><option value="regular">Sabor disponible</option><option value="coke" '+(choice.coke?'selected':'')+'>Cambiar a '+cokeDetail+'</option></select></label>' : ''}
+    <p id="choice-total" class="running" aria-live="polite">${[...totals.breakdown,'Total: '+money(totals.price)].join(' | ')}</p>
+    <div class="dialog-actions"><button type="button" class="btn gold" id="add-choice">Agregar al carrito</button></div>`;
+  if(productBody.querySelector('.flavors')) productBody.querySelector('.flavors').scrollTop=scroll;
+}
+function emptySlot(){
+  if(choice.item.zones){
+    const index=choice.zones.slice(0,choice.zoneCount).indexOf('');
+    return index<0 ? null : [index,0];
+  }
+  for(const [i,pizza] of selectedPizzas().entries()){
+    if(!pizza.first) return [i,0];
+    if(pizza.half && !pizza.second) return [i,1];
+  }
+  return null;
+}
+function finishChoice(){
+  const missing=emptySlot();
+  if(missing && !choice.item.fixed){
+    choice.active=missing;
+    renderChoice();
+    notify(choice.item.zones?'Elige el sabor de la zona '+(missing[0]+1):'Elige el sabor de la Pizza '+(missing[0]+1),true);
+    return;
+  }
+  const details=choice.item.zones?[...new Set(choice.zones.slice(0,choice.zoneCount))]:selectedPizzas().map(p=>p.first+(p.half?' 1/2 '+p.second:'')+(p.crust?' + orilla rellena':''));
+  const name=choice.single?choice.item.name.replace(' 2x1',' (1 pizza -40%)'):choice.item.name;
+  if(choice.coke) details.push(cokeDetail);
+  const signature=JSON.stringify([choice.item.id, choice.item.zones ? choice.zones.slice(0,choice.zoneCount) : selectedPizzas(), choice.single, choice.coke]);
+  productDialog.close();
+  addItem(name,choiceTotals().price,details,signature);
+}
+$('menu').addEventListener('click',event=>{
+  const button=event.target.closest('[data-product]');
+  if(button) startProduct(products.get(button.dataset.product));
+});
+productBody.addEventListener('click',event=>{
+  const button=event.target.closest('button');
+  if(!button) return;
+  choice.extrasOpen=productBody.querySelector('details')?.open || false;
+  const {flavor,zone}=button.dataset;
+  if(flavor){
+    const [i,j]=choice.active;
+    if(choice.item.zones) choice.zones[i]=flavor;
+    else choice.pizzas[i][j?'second':'first']=flavor;
+    choice.active=emptySlot() || choice.active;
+    renderChoice();
+    [...productBody.querySelectorAll('[data-flavor]')].find(el=>el.dataset.flavor===flavor)?.focus({preventScroll:true});
+  }else if(zone){
+    choice.active=zone.split(',').map(Number);
+    renderChoice();
+    productBody.querySelector('[data-zone="'+zone+'"]')?.focus({preventScroll:true});
+  }else if(button.id==='add-choice') finishChoice();
+});
+productBody.addEventListener('change',event=>{
+  const input=event.target;
+  choice.extrasOpen=productBody.querySelector('details')?.open || false;
+  if(input.id==='zone-count'){
+    choice.zoneCount=Number(input.value);
+    choice.active=emptySlot() || [0,0];
+    renderChoice();
+    $('zone-count').focus({preventScroll:true});
+    return;
+  }
+  if(input.id==='soda'){
+    choice.coke=input.value==='coke';
+    const totals=choiceTotals();
+    $('choice-total').textContent=[...totals.breakdown,'Total: '+money(totals.price)].join(' | ');
+    return;
+  }
+  const key=Object.keys(input.dataset)[0];
+  if(key==='single'){
+    choice.single=input.checked;
+    if(choice.single && choice.active[0]>0) choice.active=[0,0];
+  }else if(key==='half'){
+    const index=Number(input.dataset.half);
+    choice.pizzas[index].half=input.checked;
+    if(!input.checked) choice.pizzas[index].second='';
+    choice.active=[index,input.checked && choice.pizzas[index].first?1:0];
+  }else if(key==='crust') choice.pizzas[Number(input.dataset.crust)].crust=input.checked;
+  renderChoice();
+  if(key) productBody.querySelector('[data-'+key+'="'+input.dataset[key]+'"]')?.focus({preventScroll:true});
+});
+
+// Carrito persistente y cálculo del pago.
+const STORAGE='el-mexicano-ixtapaluca-carrito-v1';
+let cart=[];
+try{
+  const saved=JSON.parse(localStorage.getItem(STORAGE) || '[]');
+  if(Array.isArray(saved)) cart=saved.filter(item=>item && typeof item.key==='string' && typeof item.name==='string' && Number.isFinite(item.price) && item.price>=0 && Array.isArray(item.details) && Number.isSafeInteger(item.qty) && item.qty>0);
+}catch{}
+let pay='Efectivo';
+let gps='';
+const form=$('checkout');
+const subtotal=()=>cart.reduce((sum,item)=>sum+cents(item.price)*item.qty,0)/100;
+const orderTotal=()=>pay==='Tarjeta'?cents(subtotal()*(1+CARD_RATE))/100:subtotal();
+function saveCart(){
+  try{localStorage.setItem(STORAGE,JSON.stringify(cart));}catch{}
+  updateCart();
+}
+function addItem(name,price,details,key){
+  const item=cart.find(line=>line.key===key);
+  if(item) item.qty++;
+  else cart.push({name,price,details,key,qty:1});
+  saveCart();
+  notify(name+' agregado al carrito');
+}
+function updateCart(){
+  const count=cart.reduce((sum,item)=>sum+item.qty,0);
+  $('cart-bar').innerHTML='Mi carrito · '+count+(count===1?' artículo':' artículos')+' · <strong>'+money(subtotal())+'</strong>';
+  $('cart-items').innerHTML=cart.length?cart.map((item,i)=>`
+    <div class="cart-line">
+    <div><strong>${safe(item.name)} · ${money(cents(item.price)*item.qty/100)}</strong>
+    ${item.details.map(detail=>'<p class="line-info">• '+safe(detail)+'</p>').join('')}</div>
+    <div class="line-tools">
+    <button type="button" class="step" data-line="${i}" data-action="minus" aria-label="Quitar una unidad de ${safe(item.name)}">−</button>
+    <span>${item.qty}</span>
+    <button type="button" class="step" data-line="${i}" data-action="plus" aria-label="Agregar una unidad de ${safe(item.name)}">+</button>
+    <button type="button" class="step" data-line="${i}" data-action="remove" aria-label="Eliminar ${safe(item.name)}">×</button>
+    </div></div>`).join(''):'<p class="notice">Tu carrito está vacío.</p>';
+  updatePay();
+}
+function updatePay(){
+  form.querySelectorAll('[data-pay]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.pay===pay)));
+  $('cash-panel').hidden=pay!=='Efectivo';
+  $('bank-panel').hidden=pay!=='Transferencia';
+  $('card-panel').hidden=pay!=='Tarjeta';
+  $('order-total').textContent='Total: '+money(orderTotal());
+  updateChange();
+}
+function updateChange(){
+  const cash=form.elements.cash.value;
+  const change=(cents(Number(cash))-cents(orderTotal()))/100;
+  $('change').textContent=!cash?'':change<0?'La cantidad es menor al total.':change>MAX_CHANGE?'Cambio: '+money(change)+'. El repartidor no lleva más de '+money(MAX_CHANGE)+' de cambio.':'Cambio: '+money(change);
+}
+$('cart-bar').addEventListener('click',()=>{
+  updateCart();
+  cartDialog.showModal();
+  cartDialog.scrollTop=0;
+});
+document.querySelectorAll('[data-close]').forEach(button=>button.addEventListener('click',()=>button.closest('dialog').close()));
+document.querySelectorAll('dialog').forEach(dialog=>dialog.addEventListener('close',()=>dialog.querySelector('.toast').hidden=true));
+$('cart-items').addEventListener('click',event=>{
+  const button=event.target.closest('[data-line]');
+  if(!button) return;
+  const index=Number(button.dataset.line);
+  const item=cart[index];
+  const action=button.dataset.action;
+  if(action==='remove' || (action==='minus' && item.qty===1)) cart.splice(index,1);
+  else item.qty+=action==='plus'?1:-1;
+  saveCart();
+  $('cart-items').querySelector('[data-line="'+index+'"][data-action="'+action+'"]')?.focus({preventScroll:true});
+});
+form.addEventListener('click',event=>{
+  const button=event.target.closest('[data-pay]');
+  if(button){pay=button.dataset.pay;updatePay();}
+});
+form.elements.cash.addEventListener('input',updateChange);
+$('bank-panel').innerHTML=bankReady
+  ? '<p>🏦 CLABE: '+BANK.clabe.match(/.{1,4}/g).join(' ')+'</p><p>🏦 '+safe(BANK.bank)+' ('+safe(BANK.owner)+')</p><p>Por favor enviar captura de tu pago.</p><button id="copy-clabe" class="btn gold" type="button">Copiar CLABE</button>'
+  : '<p>🏦 Transferencia</p><p>Solicita la CLABE al negocio por WhatsApp antes de transferir.</p><p>Por favor enviar captura de tu pago.</p>';
+$('copy-clabe')?.addEventListener('click',async event=>{
+  const button=event.currentTarget;
+  try{await navigator.clipboard.writeText(BANK.clabe);button.textContent='¡Copiada!';}
+  catch{notify('No se pudo copiar la CLABE. Selecciona y copia el número.',true);}
+});
+
+// Ubicación, validaciones y mensaje para WhatsApp.
+$('gps').addEventListener('click',()=>{
+  if(!navigator.geolocation){$('gps-status').textContent='El navegador no permite compartir la ubicación.';return;}
+  $('gps').disabled=true;
+  $('gps-status').textContent='Obteniendo ubicación...';
+  navigator.geolocation.getCurrentPosition(({coords})=>{
+    gps='https://www.google.com/maps?q='+coords.latitude+','+coords.longitude;
+    $('gps-status').textContent='Ubicación capturada correctamente.';
+    $('gps').disabled=false;
+  },error=>{
+    const messages={1:'Activa la ubicación y permite el acceso en tu navegador.',2:'No pudimos obtener la ubicación. Revisa que el GPS esté activado.',3:'Se agotó el tiempo para obtener la ubicación. Intenta de nuevo.'};
+    $('gps-status').textContent=(messages[error.code] || 'No pudimos obtener la ubicación.')+(gps?' Se conserva la ubicación anterior.':'');
+    $('gps').disabled=false;
+  },{enableHighAccuracy:true,timeout:15000,maximumAge:0});
+});
+form.addEventListener('submit',event=>{
+  event.preventDefault();
+  if(!cart.length){notify('Tu carrito está vacío.',true);return;}
+  if(!refreshHours()){notify('Estamos cerrados. Abrimos de '+hoursText+'.',true);return;}
+  const data=new FormData(form);
+  const value=name=>String(data.get(name) || '').trim();
+  const field=name=>value(name).replace(/\s+/g,' ') || '-';
+  const required=['name','phone','address','cross','area'].find(name=>!value(name));
+  if(required){form.elements[required].focus();notify('Completa los campos obligatorios.',true);return;}
+  const phone=value('phone').replace(/[\s()-]/g,'');
+  if(!/^\d{10}$/.test(phone)){form.elements.phone.focus();notify('Escribe un teléfono de 10 dígitos.',true);return;}
+  if(subtotal()<DELIVERY_MIN){notify('El pedido mínimo para domicilio es de '+money(DELIVERY_MIN)+'.',true);return;}
+  const total=orderTotal();
+  const cash=Number(value('cash'));
+  if(pay==='Efectivo' && (!value('cash') || cents(cash)<cents(total))){
+    form.elements.cash.focus();
+    notify('Indica una cantidad en efectivo igual o mayor al total.',true);
+    return;
+  }
+  const lines=[
+    '*'+BUSINESS+' - PEDIDO*','Cliente: '+field('name'),'Teléfono: '+phone,
+    'Dirección: '+field('address'),'Entre calles: '+field('cross'),'Colonia: '+field('area'),
+    'Zaguán: '+field('gate')+' | Fachada: '+field('front'),'GPS: '+(gps || 'No enviada'),
+    'Notas: '+field('notes'),'----------------',
+    ...cart.flatMap(item=>['- '+(item.qty>1?item.qty+' x ':'')+item.name+' '+money(cents(item.price)*item.qty/100),...item.details.map(detail=>'   • '+detail)]),
+    '----------------','Pago: '+pay
+  ];
+  if(pay==='Efectivo') lines.push('Paga con: '+money(cash)+' (cambio '+money((cents(cash)-cents(total))/100)+')');
+  lines.push('*TOTAL: '+money(total)+'*');
+  if(pay!=='Efectivo') lines.push('Enviaré mi comprobante por este chat.');
+  window.open('https://wa.me/'+WHATSAPP+'?text='+encodeURIComponent(lines.join('\n')),'_blank','noopener');
+});
+updateCart();
+</script>
+</body>
+</html>
